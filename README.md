@@ -13,3 +13,12 @@ Easily let users match the mod list of a minecraft forge server.
 - Place the server executable in the same folder that the minecraft server is running from.
 - Create a folder called "forge" and place the forge installer .jar inside it.
 - run the server currently it runs on port 25566.
+
+# build
+- install Rust https://www.rust-lang.org
+- open project directory in a terminal(The one that contains Cargo.toml)
+- build and run
+  - "cargo run"
+- build
+  - "cargo build" output binary = "./target/debug/sink-client", "./target/release/sink-server"
+  - or "cargo build --release" output binary = "./target/release/sink-client", "./target/release/sink-server"
